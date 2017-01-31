@@ -1,0 +1,367 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAAE49301E37DFC300A0B02D /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FAC2324C1E368EE9007E7373 /* libsqlite3.tbd */; };
+		FAC2322A1E368316007E7373 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC232291E368316007E7373 /* main.m */; };
+		FAC2322D1E368316007E7373 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC2322C1E368316007E7373 /* AppDelegate.m */; };
+		FAC232301E368316007E7373 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC2322F1E368316007E7373 /* FirstViewController.m */; };
+		FAC232331E368316007E7373 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC232321E368316007E7373 /* SecondViewController.m */; };
+		FAC232361E368316007E7373 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAC232341E368316007E7373 /* Main.storyboard */; };
+		FAC232381E368316007E7373 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAC232371E368316007E7373 /* Assets.xcassets */; };
+		FAC2323B1E368316007E7373 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAC232391E368316007E7373 /* LaunchScreen.storyboard */; };
+		FAC232441E368ADA007E7373 /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC232431E368ADA007E7373 /* CustomTableViewCell.m */; };
+		FAC2324A1E368E93007E7373 /* JCDataBaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC232491E368E93007E7373 /* JCDataBaseManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FAC232251E368316007E7373 /* JCSQLite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JCSQLite.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAC232291E368316007E7373 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FAC2322B1E368316007E7373 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FAC2322C1E368316007E7373 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FAC2322E1E368316007E7373 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		FAC2322F1E368316007E7373 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		FAC232311E368316007E7373 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		FAC232321E368316007E7373 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		FAC232351E368316007E7373 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAC232371E368316007E7373 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAC2323A1E368316007E7373 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAC2323C1E368316007E7373 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAC232421E368ADA007E7373 /* CustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableViewCell.h; sourceTree = "<group>"; };
+		FAC232431E368ADA007E7373 /* CustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewCell.m; sourceTree = "<group>"; };
+		FAC232481E368E93007E7373 /* JCDataBaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCDataBaseManager.h; sourceTree = "<group>"; };
+		FAC232491E368E93007E7373 /* JCDataBaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCDataBaseManager.m; sourceTree = "<group>"; };
+		FAC2324C1E368EE9007E7373 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		FAFE10351E3D26A300956775 /* JIvanChaudhari.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = JIvanChaudhari.sqlite; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAC232221E368316007E7373 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAAE49301E37DFC300A0B02D /* libsqlite3.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAC2321C1E368315007E7373 = {
+			isa = PBXGroup;
+			children = (
+				FAC232271E368316007E7373 /* JCSQLite */,
+				FAC232261E368316007E7373 /* Products */,
+				FAC2324B1E368EE9007E7373 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FAC232261E368316007E7373 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAC232251E368316007E7373 /* JCSQLite.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAC232271E368316007E7373 /* JCSQLite */ = {
+			isa = PBXGroup;
+			children = (
+				FAFE10351E3D26A300956775 /* JIvanChaudhari.sqlite */,
+				FAC2322B1E368316007E7373 /* AppDelegate.h */,
+				FAC2322C1E368316007E7373 /* AppDelegate.m */,
+				FAC232481E368E93007E7373 /* JCDataBaseManager.h */,
+				FAC232491E368E93007E7373 /* JCDataBaseManager.m */,
+				FAC2322E1E368316007E7373 /* FirstViewController.h */,
+				FAC2322F1E368316007E7373 /* FirstViewController.m */,
+				FAC232421E368ADA007E7373 /* CustomTableViewCell.h */,
+				FAC232431E368ADA007E7373 /* CustomTableViewCell.m */,
+				FAC232311E368316007E7373 /* SecondViewController.h */,
+				FAC232321E368316007E7373 /* SecondViewController.m */,
+				FAC232341E368316007E7373 /* Main.storyboard */,
+				FAC232371E368316007E7373 /* Assets.xcassets */,
+				FAC232391E368316007E7373 /* LaunchScreen.storyboard */,
+				FAC2323C1E368316007E7373 /* Info.plist */,
+				FAC232281E368316007E7373 /* Supporting Files */,
+			);
+			path = JCSQLite;
+			sourceTree = "<group>";
+		};
+		FAC232281E368316007E7373 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAC232291E368316007E7373 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FAC2324B1E368EE9007E7373 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAC2324C1E368EE9007E7373 /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAC232241E368316007E7373 /* JCSQLite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAC2323F1E368316007E7373 /* Build configuration list for PBXNativeTarget "JCSQLite" */;
+			buildPhases = (
+				FAC232211E368316007E7373 /* Sources */,
+				FAC232221E368316007E7373 /* Frameworks */,
+				FAC232231E368316007E7373 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JCSQLite;
+			productName = JCSQLite;
+			productReference = FAC232251E368316007E7373 /* JCSQLite.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAC2321D1E368315007E7373 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Jivan Chaudhari";
+				TargetAttributes = {
+					FAC232241E368316007E7373 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = FAC232201E368315007E7373 /* Build configuration list for PBXProject "JCSQLite" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAC2321C1E368315007E7373;
+			productRefGroup = FAC232261E368316007E7373 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAC232241E368316007E7373 /* JCSQLite */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAC232231E368316007E7373 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC2323B1E368316007E7373 /* LaunchScreen.storyboard in Resources */,
+				FAC232381E368316007E7373 /* Assets.xcassets in Resources */,
+				FAC232361E368316007E7373 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAC232211E368316007E7373 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC232331E368316007E7373 /* SecondViewController.m in Sources */,
+				FAC2324A1E368E93007E7373 /* JCDataBaseManager.m in Sources */,
+				FAC2322D1E368316007E7373 /* AppDelegate.m in Sources */,
+				FAC232301E368316007E7373 /* FirstViewController.m in Sources */,
+				FAC232441E368ADA007E7373 /* CustomTableViewCell.m in Sources */,
+				FAC2322A1E368316007E7373 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FAC232341E368316007E7373 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAC232351E368316007E7373 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAC232391E368316007E7373 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAC2323A1E368316007E7373 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAC2323D1E368316007E7373 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAC2323E1E368316007E7373 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAC232401E368316007E7373 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = JCSQLite/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				LINK_WITH_STANDARD_LIBRARIES = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jivanchuadhri.JCSQLite;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "arm64 armv7 armv7s x86_64";
+			};
+			name = Debug;
+		};
+		FAC232411E368316007E7373 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = JCSQLite/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				LINK_WITH_STANDARD_LIBRARIES = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jivanchuadhri.JCSQLite;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "arm64 armv7 armv7s x86_64";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAC232201E368315007E7373 /* Build configuration list for PBXProject "JCSQLite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAC2323D1E368316007E7373 /* Debug */,
+				FAC2323E1E368316007E7373 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAC2323F1E368316007E7373 /* Build configuration list for PBXNativeTarget "JCSQLite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAC232401E368316007E7373 /* Debug */,
+				FAC232411E368316007E7373 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAC2321D1E368315007E7373 /* Project object */;
+}
